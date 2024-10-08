@@ -1,8 +1,8 @@
-class Vehicle {
-    private ano: string;
-    private modelo: string;
-    private placa: string;
-    private cor: string;
+export class Vehicle {
+    protected ano: string;
+    protected  modelo: string;
+    protected  placa: string;
+    protected  cor: string;
     constructor(ano: string, modelo: string, placa: string, cor: string) {
         this.ano=ano;
         this.modelo =modelo;

@@ -1,0 +1,19 @@
+{
+  "name": "criando-classe",
+  "version": "1.0.0",
+  "description": "Projeto TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  },
+  "author": "Seu Nome",
+  "license": "ISC"
+}

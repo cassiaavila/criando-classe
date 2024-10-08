@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",                 // Versão alvo do JavaScript (es5, es6, es2020, etc.)
+    "module": "commonjs",             // Sistema de módulos (commonjs, es6, etc.)
+    "outDir": "./dist",               // Diretório de saída para os arquivos compilados
+    "rootDir": "./src",               // Diretório raiz para os arquivos TypeScript
+    "strict": true,                   // Ativa verificações mais rígidas
+    "esModuleInterop": true,          // Permite interoperabilidade com módulos ES6
+    "skipLibCheck": true,             // Ignora checagem de arquivos de definição de tipos
+    "forceConsistentCasingInFileNames": true // Força consistência no uso de maiúsculas/minúsculas
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
